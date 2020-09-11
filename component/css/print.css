@@ -1,0 +1,13 @@
+/*Print yaparken bunlar gözükmesin diye yaptık*/
+
+header{
+	display: none;
+}
+footer{
+	display: none;
+
+}
+.yazdir{
+	display: none;
+	
+}

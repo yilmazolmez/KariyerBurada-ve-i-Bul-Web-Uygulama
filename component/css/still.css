@@ -1,0 +1,199 @@
+html {
+   scroll-behavior: smooth;
+}
+header{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+
+ 
+}
+ 
+ header .container .navbar .collapse ul li a{
+  color: white;
+  text-decoration: none;
+ }
+ 
+
+.home-section {
+    position: relative;
+}
+.section-hero.overlay:before, .section-hero.overlay-2:before {
+    z-index: 1;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.bg-image.overlay-primary:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(137, 186, 22, 0.9);
+    z-index: 1;
+}
+.section-hero .container{
+    z-index: 2;
+    position: relative;
+     
+}
+ 
+ footer{
+  background-color:#555555;
+
+ }
+ footer h3{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+ }
+ footer ul li a {
+  color: rgba(255, 255, 255, 0.5);
+ }
+ footer ul li a:hover{
+  color: white;
+ }
+footer a{
+color: white;
+}
+footer a:hover{
+color: white;
+}
+ footer nav ul{
+  float: left;
+   }
+ footer nav ul li h3{
+  color: #C0A96C;
+   }
+ footer nav ul li{
+  font-size: 17px;
+  list-style: none;
+
+   }
+   footer nav ul li a{
+    color: black;
+    }
+    footer nav ul li a:hover{
+    color: black;
+    text-decoration: none;
+    }
+ .search{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 32px;
+
+ }
+
+ .header-alti {
+   padding-bottom: 15px;
+
+ }
+ .header-alti ul{
+    width: 90%;
+    margin: auto;
+
+ }
+ 
+ .header-alti li{
+  float: left;
+  color: white;
+  list-style: none;
+  margin-right: 30px;
+
+
+  
+ }
+ .header-alti li a{
+  color: white;
+  text-decoration: none;
+ }
+ .header-alti li a:hover{
+  opacity: 0.6;
+ }
+
+.loginbuton {
+  background-color: #89ba16;
+  color: white;
+  border-radius: 2px;
+  padding:14px 14px;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.loginbuton:hover {
+  background-color: #89ba16;
+} 
+ 
+
+
+.firmalar-is_ilani ul li{
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.firmalar-buton{
+  background-color: #58B02B;
+  border-color:#165A50 ;
+  color:white;  
+}
+
+.main-elemanlar{
+  /*  background: url('../../images/header.png') ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;*/
+ /*   padding-top: 20px;*/
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+
+}
+.main-kisiler-hover a{
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+ z-index: 2;
+    position: relative;
+     
+}
+.main-kisiler-hover{
+ 
+ z-index: 2;
+    position: relative;
+  
+}
+.mobil-yeri{
+     background: url('../../images/header.png') ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+ }
+
+
+.cv-etiket{
+
+  /*border: 1px solid #E5E5E5;*/
+  padding: 5px;
+}
+
+
+ 
