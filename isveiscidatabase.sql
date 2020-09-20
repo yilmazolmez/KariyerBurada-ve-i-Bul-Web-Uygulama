@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 07 Eyl 2020, 12:25:14
--- Sunucu sürümü: 10.4.13-MariaDB
+-- Üretim Zamanı: 20 Eyl 2020, 00:49:22
+-- Sunucu sürümü: 10.4.11-MariaDB
 -- PHP Sürümü: 7.2.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -64,7 +64,7 @@ CREATE TABLE `uyecvbilgi` (
 --
 
 INSERT INTO `uyecvbilgi` (`uyecvno`, `uyecvadisoyadi`, `uyecvtcno`, `uyecveposta`, `uyecvsifre`, `uyecvdogumyeri`, `uyecvdogumtarihi`, `uyecvanaadi`, `uyecvbabaadi`, `uyecvadresi`, `uyecvsehir`, `uyecvtelefonno`, `uyecvsonmezunokul`, `uyecvsonmezunbolum`, `uyecvsoncalisilanis1`, `uyecvsoncalisilanis2`, `uyecvmeslekunvani`, `uyercvesim1`, `uyecvresim2`, `uyeecvgitimseviye`, `uyecvozetbilgi1`, `uyecvozetbilgi2`, `uyecvaktiflik`, `uyecvsonisayrilmasebebi`, `uyecvsonisayrilmatarihi`, `uycvisaramaaktiflik`, `uyecvgoruntulemesayisi`, `gizlisoru`, `yanit`) VALUES
-(1, 'Yılmaz  Ölmez', '11111111111', 'ylmaz_lmez@hotmail.com', '123', 'Mardin', '1996-04-04', 'hamdiye', 'osman', 'Merkez mah. Namık Kemal Cad. Kardeşler Ap.. Avcılar', 'İstanbul', '54551545454545', 'Sakarya Üniversitesi', 'Bilgisayar Programcılığı', 'Freelance web tasarım', '', 'Bilgisayar Mühendisi', NULL, 'images/kisiler/571059058CKJ81819e5cfa-7085-4da3-a7cb-a4e2471b0a6c.JPG', 'üniversite', 'Namık Kemal Üniversitesi Bilgisayar MÜhendisliği son sınıf öğrencisiyim. Kendimi yazılım sektöründe geliştirmek istiyorum.', NULL, NULL, 'Kendi daha iyi yerlerde geliştirmek.', '0000-00-00', 'AKTIF', 4, 'İlkokul Öğretmeniniz?', 'isa'),
+(1, 'Yılmaz  Ölmez', '11111111111', 'yilmazlmez@gmail.com', '123', 'Mardin', '1996-04-04', 'hamdiye', 'osman', 'Merkez mah. Namık Kemal Cad. Kardeşler Ap.. Avcılar', 'İstanbul', '54551545454545', 'Sakarya Üniversitesi', 'Bilgisayar Programcılığı', 'Freelance web tasarım', '', 'Bilgisayar Mühendisi', NULL, 'images/kisiler/571059058CKJ81819e5cfa-7085-4da3-a7cb-a4e2471b0a6c.JPG', 'üniversite', 'Namık Kemal Üniversitesi Bilgisayar MÜhendisliği son sınıf öğrencisiyim. Kendimi yazılım sektöründe geliştirmek istiyorum.', NULL, NULL, 'Kendi daha iyi yerlerde geliştirmek.', '0000-00-00', 'AKTIF', 4, 'İlkokul Öğretmeniniz?', 'isa'),
 (2, 'Furkan Ceylan', '21212121212', 'furkan@hotmail.com', '123', 'Sivas', '2020-08-18', 'Ayşe', 'Nazif', 'Avcılar Ambarlı siteler', 'İstanbul', '24124124124124', 'Kocaeli Üniversitesi', 'Bilgisayar Programcısı', 'Pars Servis', '', 'Bilgisayar Programcısı', NULL, 'images/kisiler/108627695309OUC1.jpg', 'üniversite', 'Bilgisayar Programcılığı mezunuyum. Kendimi Bu alanda geliştirmek için çabalamaktayım.', NULL, NULL, 'Kendi daha iyi yerlerde geliştirmek.', '0000-00-00', 'AKTIF', 0, 'İlk evcil hayvanınızın adı nedir?', 'köpek'),
 (3, 'Doğuş Uz', '44444444444', 'dogus@hotmail.com', '123', 'Ordu', '1999-05-11', 'Ayşe', 'Nazif', 'Merkez mah. kandıra sokak Bağcılar', 'İstanbul', '41414141414141', 'Kocaeli Üniversitesi', 'Tekstil Mühendisi', 'Tekstil', '', 'Tekstil Mühendisi', NULL, 'images/kisiler/8261923055R4DH12.jpeg', 'üniversite', 'Tekstil mühendisliği mezunuyum. Bu alanda iş aramaktayım.', NULL, NULL, 'Kendi daha iyi yerlerde geliştirmek.', '0000-00-00', 'AKTIF', 0, 'Hangi şehirde doğdunuz?', 'istanbul'),
 (4, 'İlhan Durmuş', '41415161615', 'ilhan@hotmail.com', '123', 'Samsun', '0000-00-00', 'Ayşe', 'Nazif', 'Talimhane sokak Avcılar İStanbul', 'İstanbul', '41414155555555', 'Namık Kemal Üniversitesi', 'Sosyoloji', 'İlhan Parke', '', 'Parkeci', NULL, 'images/kisiler/593805833PIMT1person.jpg', 'üniversite', 'Baba mesleği olan parke sektöründe 5 yıl tecrübem vardır. Parke alım satım işlerindede bulundum.', NULL, NULL, '', '0000-00-00', 'AKTIF', 0, 'İlk evcil hayvanınızın adı nedir?', 'kedi'),
@@ -72,7 +72,10 @@ INSERT INTO `uyecvbilgi` (`uyecvno`, `uyecvadisoyadi`, `uyecvtcno`, `uyecveposta
 (6, 'Gülizar demir', '74128966656', 'gulizar@gmail.com', '123', 'Bartın', '1985-01-01', 'Ayşe', 'mert', 'Şeyh Sinan mahallesi Karamel sokak', 'İzmir', '54545454545151', 'Sakarya Üniversitesi', 'Bilgisayar Mühendisliği', 'Yazılım Geliştirme', '', 'Yazılım Geliştirici', NULL, 'images/kisiler/6058431661RG8W5bf32b00bc2cb520b8b4f607_0.jpeg', 'üniversite', 'Yazılım sektöründe iş aramaktayım. 5 yıllık iş tecrübem mevcuttur.', NULL, NULL, 'Firma içinde tartışma', '0000-00-00', 'AKTIF', 1, 'İlk evcil hayvanınızın adı nedir?', 'kedi'),
 (7, 'Mert Atay', '51515161617', 'mert@hotmail.com', '123', 'Adıyaman', '1985-01-01', 'Ayşe', 'Nazif', 'Merkez mah.  okul sokak', 'Adıyaman', '11111444441231', 'Namık Kemal Üniversitesi', 'Yazılım uzmanı', 'Yazılım uzmanı', '', 'Yazılım uzmanı', NULL, 'images/kisiler/102154653m11a.jpg', 'üniversite', 'Hızlı gelişen yazılım sektöründe bende hızlı yeni bilgiler öğrenip kendimi bu alanda geliştiriyorum.', NULL, NULL, 'Kendi daha iyi yerlerde geliştirmek.', '0000-00-00', 'AKTIF', 5, 'İlk evcil hayvanınızın adı nedir?', 'at'),
 (8, 'Aslı Ataç', '77898946456', 'asli@hotmail.com', '123', 'Antalya', '1990-12-12', 'Nedime', 'Hakan', 'Merkez mah. sinan sokak avcılar', 'Artvin', '84545156315315', 'Namık Kemal Üniversitesi', 'Endüsti Mühendisi', 'Endüstri', '', 'Endüsti Mühendisi', NULL, 'images/kisiler/13697077052WZ74CV.jpg', 'üniversite', 'Endüstri alanın 2 yıl iş tecrübem mevcuttur. Kariyerimi bu alanda devam ettirmekteyim.', NULL, NULL, 'Kendi daha iyi yerlerde geliştirmek.', '0000-00-00', 'AKTIF', 7, 'Hangi şehirde doğdunuz?', 'istanbul'),
-(22, 'yildiz sancar', '11111123123', 'yildizsancar@hotmail.com', '123', NULL, '1996-04-04', 'Hamdiye', 'osman', 'Okul sokak avcilar merkez', 'İstanbul', '454545 45 45 45', NULL, 'Tekstil', NULL, NULL, 'Tekstilci', NULL, 'images/kisiler/person.jpg', 'lise', 'Tekstil alanin 10 yillik tecrubem mevcuttur. Suanda Liseyi aciktan okumaktayim. Elimden geldigince yeni bilgiler ogrenip kendimi gelistirme asamasindayim. Bana ogretilenleri ne iyi sekilde ogrenebiliyorum. Ve bunlari aktarabiliyorum.', NULL, NULL, NULL, NULL, 'AKTIF', 2, 'İlk evcil hayvanınızın adı', 'kus');
+(22, 'yildiz sancar', '11111123123', 'yildizsancar@hotmail.com', '123', NULL, '1996-04-04', 'Hamdiye', 'osman', 'Okul sokak avcilar merkez', 'İstanbul', '454545 45 45 45', NULL, 'Tekstil', NULL, NULL, 'Tekstilci', NULL, 'images/kisiler/person.jpg', 'lise', 'Tekstil alanin 10 yillik tecrubem mevcuttur. Suanda Liseyi aciktan okumaktayim. Elimden geldigince yeni bilgiler ogrenip kendimi gelistirme asamasindayim. Bana ogretilenleri ne iyi sekilde ogrenebiliyorum. Ve bunlari aktarabiliyorum.', NULL, NULL, NULL, NULL, 'AKTIF', 2, 'İlk evcil hayvanınızın adı', 'kus'),
+(32, 'uyetest', '39031922302', 'yilmazlmez1@gmail.com', '1891189100', NULL, '0000-00-00', '', '', '', 'İstanbul', '532', NULL, '', NULL, NULL, 'meslek', NULL, 'images/kisiler/person.jpg', 'Nami Kemal Universitesi', '', NULL, NULL, NULL, NULL, 'AKTIF', 0, 'İlk evcil hayvanınızın adı', 'miyu'),
+(33, 'mustafa', '39031922302', 'm@m.com', '1891189100', NULL, '0000-00-00', '', '', '', 'İstanbul', '5322100976', NULL, '', NULL, NULL, 'meslek', NULL, 'images/kisiler/image_picker3633699934869209112.jpg', '', '', NULL, NULL, NULL, NULL, 'AKTIF', 0, 'İlk evcil hayvanınızın adı', 'miyu'),
+(34, 'Mustafa ALTUNDAG', NULL, 'mustafaaltundag34@gmail.com', '123456', NULL, NULL, NULL, NULL, NULL, 'İstanbul', '5322100976', NULL, NULL, NULL, NULL, 'meslek', NULL, 'images/kisiler/image_picker8562922338877696514.jpg', NULL, NULL, NULL, NULL, NULL, NULL, 'AKTIF', 0, 'İlk evcil hayvanınızın adı', 'miyu');
 
 -- --------------------------------------------------------
 
@@ -116,7 +119,9 @@ INSERT INTO `uyefirmabilgi` (`uyefirmano`, `uyefirmaunvani`, `uyefirmaadres`, `u
 (6, 'EG Bilişim', 'Esentepe Mah. Matbuat Sok. Durukan Apt. No:17 D:2, 34394 Şişli/İst', 'egbilisim@gmail.com', '123', 'Ankara', NULL, '1231231231', 'İnteraktif Vergi Dairesi', NULL, '90 212 233 41 ', 'EG Bilişim', NULL, '250', 'İlk evcil hayvanınızın adı nedir?', 'kuş', 'images/firmalar/21448803580afa1778fd9fd894c9965694fbd2aea6.jpg', 'Çözüm üreten ve iş dünyasının işleyişini kolaylaştıran bir ajans yapısına sahibiz. Biz dijital pazarlamaya kendini adamış ve problem çözmede uzmanlaşmış bir ekibiz.', NULL, 'AKTIF'),
 (7, 'Toyota', 'Cumhuriyet Mah.Mustafa Kemal Bulv. 52200 - Ordu', 'toyota@hotmail.com', '123', 'Ordu', NULL, '1231231231', 'İnteraktif Vergi Dairesi', NULL, '0212 354 0 354', 'Toyota', NULL, '5000', 'Çocukluk lakabınız nedir?', 'boğa', 'images/firmalar/114255790272JKZtoyota.jpg', 'HAFTANIN 7 GÜNÜ HİZMET VEREN TOYOTA İLETİŞİM MERKEZİ ARACILIĞIYLA, TOYOTA TARAFINDAN SATILAN TÜM ÜRÜNLERİN ÖZELLİKLERİNDEN TOYOTA BAYİLERİNE KADAR HER TÜRLÜ BİLGİYE ULAŞABİLİRSİNİ', NULL, 'AKTIF'),
 (8, 'Setur Servis ', '	Saray Mahallesi Site Yolu Caddesi No: 4/1 34770 ', 'setur@hotmail.com', '123', 'Adana', NULL, '1231231231', 'İnteraktif Vergi Dairesi', NULL, '444 28 22', 'Setur Servis', NULL, '506', 'İlk aracınızın modeli nedir?', 'Q7', 'images/firmalar/1950454264JCSEUsetur.png', 'Setur, 1964 yılı ortalarında, gümrükten muaf mağazaların ülkemizde faaliyet göstermesine olanak tanıyan kararın çıkarılması üzerine Koç Holding tarafından kurulmuştur. ', NULL, 'AKTIF'),
-(11, 'Orhan Dogan Spor Kulubu', 'Samli sokak avcilar merkez cami mahallesi Avcilar', 'orhandoganavcilar@hotmail.com', '123', 'İstanbul', NULL, '1241241231', 'avcilar hikmet vergi dairesi', NULL, '0555 522 54 56', 'orhan dogan', NULL, '15', 'İlk evcil hayvanınızın adı', 'kus', 'images/firmalar/default.jpg', 'Avcilarin en iyi kick box ve fitness salonlarina sahibiz. Her yasa uygun kick boks ve fitness programlarimiz mevcuttur. Her daim profesyonel hocalarimizla sizlerin yaninizdayiz. Avcilar istanbulda bulunan salonumuza herkes davetlidir.', NULL, 'AKTIF');
+(11, 'Orhan Dogan Spor Kulubu', 'Samli sokak avcilar merkez cami mahallesi Avcilar', 'orhandoganavcilar@hotmail.com', '123', 'İstanbul', NULL, '1241241231', 'avcilar hikmet vergi dairesi', NULL, '0555 522 54 56', 'orhan dogan', NULL, '15', 'İlk evcil hayvanınızın adı', 'kus', 'images/firmalar/default.jpg', 'Avcilarin en iyi kick box ve fitness salonlarina sahibiz. Her yasa uygun kick boks ve fitness programlarimiz mevcuttur. Her daim profesyonel hocalarimizla sizlerin yaninizdayiz. Avcilar istanbulda bulunan salonumuza herkes davetlidir.', NULL, 'AKTIF'),
+(15, 'firmam', NULL, 'firma@firma.com', '1891189100', 'İstanbul', NULL, NULL, NULL, NULL, '532', NULL, NULL, NULL, 'İlk evcil hayvanınızın adı', 'miyu', 'images/firmalar/default.jpg', NULL, NULL, 'AKTIF'),
+(16, 'turkcell', '', 'ylmaz_lmez@hotmail.com', '1891189100', 'İstanbul', NULL, '', '', NULL, '532', '', NULL, '', 'İlk evcil hayvanınızın adı', 'miyu', 'images/firmalar/image_picker5622511330659384571.jpg', '', NULL, 'AKTIF');
 
 -- --------------------------------------------------------
 
@@ -145,7 +150,13 @@ INSERT INTO `uyefirmaisilanbasvurubilgi` (`isilanbasvuruno`, `isilanno`, `uyefir
 (37, 12, 'Pepsico Bevera', 1, 'Yılmaz  Ölmez', ' E-Ticaret sitemizde ürünlerimizin tamamını detaylı bir şekilde girişlerinin yapılması,\r\nÜrün görsellerinin uygun hale getirilerek siteye eklenmesi, 						', 'Web satış konusunda deneyimli olmak,\r\n\r\n·       Sistematik çalışmaya yatkın olmak,\r\n\r\n 								', '2020-08-29', 1, 'E-Ticaret Uzmanı'),
 (41, 28, 'Orhan Dogan Spor Kulubu', 22, 'yildiz sancar', 'Avcilarda bulunan fitness salonumuzddda tecrubeli fitness egitimcisi aramaktayiz. Minimum 2 yil tecrubesi olmasi on kosuldur. Esnek calisma saatlerimiz vardir. Sigorta + yemek biz tarafindan ', 'onceligimiz lise mezunu ve esnek calisma saatlerini karsilayacak kisiler.', '2020-08-30', 11, 'Kisisel Fitnes Egitimcisi(Personel Training)'),
 (45, 19, 'Toyota', 1, 'Yılmaz  Ölmez', 'Firmamizda calisacak kalite kontrolcusu aranmaktadir.', 'Tercihen 3 yil tecrube sahibi olunmasi gerekmektedir.', '2020-08-31', 7, 'Kalite Kontrol'),
-(46, 19, 'Toyota', 5, 'Hamdiye Ölmez', 'Firmamizda calisacak kalite kontrolcusu aranmaktadir.', 'Tercihen 3 yil tecrube sahibi olunmasi gerekmektedir.', '2020-09-04', 7, 'Kalite Kontrol');
+(46, 19, 'Toyota', 5, 'Hamdiye Ölmez', 'Firmamizda calisacak kalite kontrolcusu aranmaktadir.', 'Tercihen 3 yil tecrube sahibi olunmasi gerekmektedir.', '2020-09-04', 7, 'Kalite Kontrol'),
+(48, 28, 'Orhan Dogan Spor Kulubu', 32, 'uyetest', 'Avcilarda bulunan fitness salonumuzddda tecrubeli fitness egitimcisi aramaktayiz. Minimum 2 yil tecrubesi olmasi on kosuldur. Esnek calisma saatlerimiz vardir. Sigorta + yemek biz tarafindan ', 'onceligimiz lise mezunu ve esnek calisma saatlerini karsilayacak kisiler.', '2020-09-08', 11, 'Kisisel Fitnes Egitimcisi(Personel Training)'),
+(50, 12, 'Pepsico Bevera', 32, 'uyetest', ' E-Ticaret sitemizde ürünlerimizin tamamını detaylı bir şekilde girişlerinin yapılması,\r\nÜrün görsellerinin uygun hale getirilerek siteye eklenmesi, 						', 'Web satış konusunda deneyimli olmak,\r\n\r\n·       Sistematik çalışmaya yatkın olmak,\r\n\r\n 								', '2020-09-09', 1, 'E-Ticaret Uzmanı'),
+(51, 28, 'Orhan Dogan Spor Kulubu', 33, 'mustafa', 'Avcilarda bulunan fitness salonumuzddda tecrubeli fitness egitimcisi aramaktayiz. Minimum 2 yil tecrubesi olmasi on kosuldur. Esnek calisma saatlerimiz vardir. Sigorta + yemek biz tarafindan ', 'onceligimiz lise mezunu ve esnek calisma saatlerini karsilayacak kisiler.', '2020-09-09', 11, 'Kisisel Fitnes Egitimcisi(Personel Training)'),
+(53, 31, 'turkcell', 1, 'Yılmaz  Ölmez', '', '', '2020-09-19', 16, 'Mühendis'),
+(54, 28, 'Orhan Dogan Spor Kulubu', 1, 'Yılmaz  Ölmez', 'Avcilarda bulunan fitness salonumuzddda tecrubeli fitness egitimcisi aramaktayiz. Minimum 2 yil tecrubesi olmasi on kosuldur. Esnek calisma saatlerimiz vardir. Sigorta + yemek biz tarafindan ', 'onceligimiz lise mezunu ve esnek calisma saatlerini karsilayacak kisiler.', '2020-09-19', 11, 'Kisisel Fitnes Egitimcisi(Personel Training)'),
+(55, 31, 'turkcell', 34, 'Mustafa ALTUNDAG', '', '', '2020-09-20', 16, 'Mühendis');
 
 -- --------------------------------------------------------
 
@@ -194,7 +205,8 @@ INSERT INTO `uyefirmaisilanbilgi` (`uyefirmano`, `uyefirmaunvani`, `isilanno`, `
 (1, 'Pepsico Bevera', 12, 'üniversite', 'askerliği bitirmiş', 'bay', 35, '8-5', 'İstanbul(Avr.)(Beşiktaş)', 'İstanbul', 'E-Ticaret Uzmanı', 3000, 2, '2020-08-28', '2020-09-30', ' E-Ticaret sitemizde ürünlerimizin tamamını detaylı bir şekilde girişlerinin yapılması,\r\nÜrün görsellerinin uygun hale getirilerek siteye eklenmesi, 						', 'Web satış konusunda deneyimli olmak,\r\n\r\n·       Sistematik çalışmaya yatkın olmak,\r\n\r\n 								', 'images/firmalar/11271657977WJKRpepsico.jpg', 'Normal İş İlanı'),
 (3, 'Aras Kargo', 13, 'üniversite', 'Boş', 'farketmez', 35, '8-5', 'Ankara(Sincan, Etimesgut, Yenimahalle)', 'Ankara', 'İnsan Kaynakları Sorumlu', 3000, 2, '2020-08-28', '2020-10-29', 'Üniversitelerin İlgili Bölümlerinden Mezun,\r\n\r\nİnsan Kaynakları Alanında En Az 5 Yıl Deneyimli,\r\n\r\nİş Kanunu ve SGK Mevzuatına Hakim,										', 'Kalite Yönetim Sistemi Doğrultusunda Gerekli İnsan Kaynakları Süreçlerinin Kurulması ve Geliştirilmesi,\r\n\r\n·İş Sağlığı ve Güvenliği Süreçlerine Destek Verilmesi.										', 'images/firmalar/16572268941RMBUaras.jpg', 'Normal İş İlanı'),
 (7, 'Toyota', 19, 'Lise', 'yok', 'farketmez', 33, '8-5', 'istanbul avrupa', 'istanbul', 'Kalite Kontrol', 2222, 3, '2020-8-28', '2020-09-28', 'Firmamizda calisacak kalite kontrolcusu aranmaktadir.', 'Tercihen 3 yil tecrube sahibi olunmasi gerekmektedir.', 'images/firmalar/114255790272JKZtoyota.jpg', 'Normal İş İlanı'),
-(11, 'Orhan Dogan Spor Kulubu', 28, 'Lise', 'Bitimis', 'Farketmez', 50, 'sabah 10, aksam 12', 'Istanbul avrupa yakasi avcilar merkez', 'istanbul', 'Kisisel Fitnes Egitimcisi(Personel Training)', 2500, 0, '2020-8-30', '2020-09-30', 'Avcilarda bulunan fitness salonumuzddda tecrubeli fitness egitimcisi aramaktayiz. Minimum 2 yil tecrubesi olmasi on kosuldur. Esnek calisma saatlerimiz vardir. Sigorta + yemek biz tarafindan ', 'onceligimiz lise mezunu ve esnek calisma saatlerini karsilayacak kisiler.', 'images/firmalar/default.jpg', 'Normal İş İlanı');
+(11, 'Orhan Dogan Spor Kulubu', 28, 'Lise', 'Bitimis', 'Farketmez', 50, 'sabah 10, aksam 12', 'Istanbul avrupa yakasi avcilar merkez', 'istanbul', 'Kisisel Fitnes Egitimcisi(Personel Training)', 2500, 0, '2020-8-30', '2020-09-30', 'Avcilarda bulunan fitness salonumuzddda tecrubeli fitness egitimcisi aramaktayiz. Minimum 2 yil tecrubesi olmasi on kosuldur. Esnek calisma saatlerimiz vardir. Sigorta + yemek biz tarafindan ', 'onceligimiz lise mezunu ve esnek calisma saatlerini karsilayacak kisiler.', 'images/firmalar/default.jpg', 'Normal İş İlanı'),
+(16, 'turkcell', 31, 'Universite', '', '', 0, '', '', '', 'Mühendis', 0, 0, '2020-9-19', '2020-12-01', '', '', 'images/firmalar/image_picker5622511330659384571.jpg', 'Acil İş İlanı');
 
 -- --------------------------------------------------------
 
@@ -368,25 +380,25 @@ ALTER TABLE `uygulamalog`
 -- Tablo için AUTO_INCREMENT değeri `uyecvbilgi`
 --
 ALTER TABLE `uyecvbilgi`
-  MODIFY `uyecvno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `uyecvno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `uyefirmabilgi`
 --
 ALTER TABLE `uyefirmabilgi`
-  MODIFY `uyefirmano` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `uyefirmano` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `uyefirmaisilanbasvurubilgi`
 --
 ALTER TABLE `uyefirmaisilanbasvurubilgi`
-  MODIFY `isilanbasvuruno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+  MODIFY `isilanbasvuruno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `uyefirmaisilanbilgi`
 --
 ALTER TABLE `uyefirmaisilanbilgi`
-  MODIFY `isilanno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `isilanno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `uygulamabilgi`
